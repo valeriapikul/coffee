@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="catalog.html">Каталог</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                    </ul>
+                </nav>
+                <div class="entrance">
+                    <a href="#" class="profile">
+                        <img class="profile__link" src="images/profile.svg" alt="">
+                    </a>
+                    <div class="line"></div>
+                    <a href="cart.html" class="basket">
+                        <img class="basket__link" src="images/basket.svg" alt="">
+                    </a>
+                    <p class="entrance__text">КОРЗИНА (5)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="goods-product">
+        <div class="container">
+            <div class="goods-product__wrapper">
+                <a class="catalog_product" href="#">Каталог / кофе</a>
+                <div class="goods-product__inner">
+                    <div class="goods-product__img">
+                        <img class="green__tea" src="images/big__tea.png" alt="">
+                    </div>
+                    <div class="goods-product__info">
+                        <h4 class="product__item-title-product-first">
+                            для фильтра
+                        </h4>
+                        <h3 class="product__item-title-product">
+                            Колумбия COFFEE
+                        </h3>
+                        <p class="product__item-text">
+                            Сбалансированный вкус с нотами жареных орехов, шоколада и карамели.
+                        </p>
+                        <div class="info__rating-product">
+                            <p class="properties__text">Плотность</p>
+                            <p class="properties__text">кислотность</p>
+                        </div>
+                        <div class="info__properties">
+                            <p class="properties__text">помол</p>
+                            <p class="properties__text">ВЕС</p>
+                        </div>
+                        <div class="info__choose">
+                            <select class="info__select">
+                                <option class="select__item" value="В зёрнах">В зёрнах</option>
+                                <option class="select__item" value="Для фильтра">Для фильтра</option>
+                                <option class="select__item" value="Для турки">Для турки</option>
+                                <option class="select__item" value="В чашке">В чашке</option>
+                            </select>
+                            <div class="choose__btn">
+                                <button type="submit" class="choose__btn-item">
+                                    1200г.
+                                </button>
+                                <button type="submit" class="choose__btn-item">
+                                    500г.
+                                </button>
+                                <button type="submit" class="choose__btn-item">
+                                    200г.
+                                </button>
+                            </div>
+                            <form action="" class="choose__form">
+
+                            </form>
+                        </div>
+                        <div class="info__text">
+                            <p class="info__text-price">540 руб.</p>
+                            <button type="submit" class="product__item-btn">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-product">
+        <div class="container">
+            <div class="about-product__inner">
+                <div class="reviews">
+                    <div class="reviews__top">
+                        <h3 class="reviews__title">
+                            отзывы
+                        </h3>
+                        <button type="submit" class="reviews__btn">
+                            отменить
+                        </button>
+                    </div>
+                    <form class="reviews__form" action="">
+                        <textarea class="form__description" placeholder="Отзыв..."></textarea>
+                    </form>
+                    <button type="submit" class="descr__btn">
+                        ОТПРАВИТЬ
+                    </button>
+                </div>
+                <div class="description">
+                    <h3 class="description__title">
+                        Описание
+                    </h3>
+                    <div class="description__inner">
+                        <div class="description__column">
+                            <div class="description__row">
+                                <h4 class="row__title">
+                                    Ростер для обжарки
+                                </h4>
+                                <p class="row__text">
+                                    Probat UG 22
+                                </p>
+                            </div>
+                            <div class="description__row">
+                                <h4 class="row__title">
+                                    степень обжарки
+                                </h4>
+                                <p class="row__text">
+                                    Фильтр
+                                </p>
+                            </div>
+                            <div class="description__row">
+                                <h4 class="row__title">
+                                    Оценка Q-грейдера:
+                                </h4>
+                                <p class="row__text">
+                                    85.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="description__column">
+                            <div class="description__row">
+                                <h4 class="row__title">
+                                    Регион
+                                </h4>
+                                <p class="row__text">
+                                    Центральное высокогорье
+                                </p>
+                            </div>
+                            <div class="description__row">
+                                <h4 class="row__title">
+                                    Способ обработки
+                                </h4>
+                                <p class="row__text">
+                                    Мытый
+                                </p>
+                            </div>
+                            <div class="description__row">
+                                <h4 class="row__title">
+                                    Высота произрастания
+                                </h4>
+                                <p class="row__text">
+                                    1400–1800 м
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cooking">
+        <div class="container">
+            <h3 class="cooking__title">
+                СПОСОБЫ ПРИГОТОВЛЕНИЯ
+            </h3>
+            <div class="cooking__method">
+                <div class="turk">
+                    <h3 class="method__title">
+                        В турке
+                    </h3>
+                    <a class="method__link" href="#">Читать руководство</a>
+                    <img class="turk__img" src="images/turk.svg" alt="">
+                </div>
+                <div class="cup">
+                    <h3 class="method__title">
+                        В ЧАШКЕ
+                    </h3>
+                    <a class="method__link" href="#">Читать руководство</a>
+                    <img class="cup__img" src="images/cup.svg" alt="">
+                </div>
+                <div class="coffee__maker">
+                    <h3 class="method__title">
+                        В кофеварке
+                    </h3>
+                    <a class="method__link" href="#">Читать руководство</a>
+                    <img class="coffee__maker-img" src="images/coffee__maker.svg" alt="">
+                </div>
+                <div class="french__press">
+                    <h3 class="method__title">
+                        френч-пресс
+                    </h3>
+                    <a class="method__link" href="#">Читать руководство</a>
+                    <img class="french__press-img" src="images/french__press.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="origin">
+        <div class="container">
+            <h3 class="origin__top-title">
+                ПРОИСХОЖДЕНИЕ
+            </h3>
+            <div class="origin__inner">
+                <div class="country">
+                    <h4 class="origin__title">
+                        КЕНИЯ
+                    </h4>
+                    <div class="country__line"></div>
+                    <p class="origin__text">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от
+                        всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                    </p>
+                    <img class="country__img" src="images/nature.png" alt="">
+                </div>
+                <div class="origin__info">
+                    <div class="history">
+                        <h4 class="origin__title">
+                            История
+                        </h4>
+                        <div class="origin__line"></div>
+                        <p class="origin__text">
+                            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали
+                            от
+                            всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький
+                            ручеек
+                            Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.
+                        </p>
+                    </div>
+                    <div class="use">
+                        <h4 class="origin__title">
+                            уПОТРЕБЛЕНИЕ
+                        </h4>
+                        <div class="origin__line"></div>
+                        <p class="origin__text">
+                            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee__inner">
+                <div class="quality__mark">
+                    <h3 class="guarantee__title">
+                        Знак качества
+                    </h3>
+                    <p class="quality__text">
+                        Мы обжариваем этот кофе каждый день. Если кофе не понравится — бесплатно заменим или вернем
+                        оплату.
+                    </p>
+                </div>
+                <div class="delivery">
+                    <h3 class="guarantee__title">
+                        ДОСТАВКА
+                    </h3>
+                    <div class="delivery__info">
+                        <p class="info__left">
+                            Вы можете оформить заказ на сумму от 600 рублей, мы доставим его в любой город до пункта
+                            выдачи или до двери.
+                        </p>
+                        <p class="info__right">
+                            Стоимость доставки рассчитывается автоматически в корзине, она зависит от суммы и веса
+                            заказа. В крупные города доставляем бесплатно при заказе от 1000 рублей, Почтой России —
+                            всегда бесплатно.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recommend">
+        <div class="container">
+            <div class="recommend__inner">
+                <div class="recommend__item">
+                    <p class="recommend__item-text">
+                        для фильтра
+                    </p>
+                    <h3 class="recommend__item-title">
+                        Колумбия COFFEE
+                    </h3>
+                    <img class="recommend__item-img" src="images/product.png" alt="">
+                    <div class="recommend__info">
+                        <div class="recommend__properties">
+                            <p class="recommend__text">Плотность</p>
+                        </div>
+                        <div class="recommend__properties">
+                            <p class="recommend__text">кислотность</p>
+                        </div>
+                    </div>
+                    <div class="recommend__price">
+                        <div class="price__text-item">
+                            <p class="info__price">540 руб.</p>
+                        </div>
+                        <button type="submit" class="recommend__item-btn">
+                            Купить
+                        </button>
+                    </div>
+                </div>
+                <div class="recommend__item">
+                    <p class="recommend__item-text">
+                        для фильтра
+                    </p>
+                    <h3 class="recommend__item-title">
+                        Колумбия COFFEE
+                    </h3>
+                    <img class="recommend__item-img" src="images/product.png" alt="">
+                    <div class="recommend__info">
+                        <div class="recommend__properties">
+                            <p class="recommend__text">Плотность</p>
+                        </div>
+                        <div class="recommend__properties">
+                            <p class="recommend__text">кислотность</p>
+                        </div>
+                    </div>
+                    <div class="recommend__price">
+                        <div class="price__text-item">
+                            <p class="info__price">540 руб.</p>
+                        </div>
+                        <button type="submit" class="recommend__item-btn">
+                            Купить
+                        </button>
+                    </div>
+                </div>
+                <div class="recommend__item">
+                    <p class="recommend__item-text">
+                        для фильтра
+                    </p>
+                    <h3 class="recommend__item-title">
+                        Колумбия COFFEE
+                    </h3>
+                    <img class="recommend__item-img" src="images/product.png" alt="">
+                    <div class="recommend__info">
+                        <div class="recommend__properties">
+                            <p class="recommend__text">Плотность</p>
+                        </div>
+                        <div class="recommend__properties">
+                            <p class="recommend__text">кислотность</p>
+                        </div>
+                    </div>
+                    <div class="recommend__price">
+                        <div class="price__text-item">
+                            <p class="info__price">540 руб.</p>
+                        </div>
+                        <button type="submit" class="recommend__item-btn">
+                            Купить
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo__footer.svg" alt="">
+                </a>
+                <div class="footer__tel">
+                    <a class="tel" href="+79998887766">+7 (999) 888 77-66</a>
+                    <p class="tel__text">
+                        Звонок бесплатный
+                    </p>
+                </div>
+            </div>
+            <div class="footer__middle">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="contact.html">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__social">
+                    <a href="" class="social__link">ВК</a>
+                    <a href="" class="social__link">FB</a>
+                    <a href="" class="social__link">INST</a>
+                    <a href="" class="social__link">YT</a>
+                </div>
+            </div>
+            <div class="line__footer">
+            </div>
+            <div class="footer__bottom">
+                <p class="bottom__copyright">© 2021 «Вкусно кофе»</p>
+                <p class="bottom__text">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

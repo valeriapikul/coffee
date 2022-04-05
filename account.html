@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="catalog.html">Каталог</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                    </ul>
+                </nav>
+                <div class="entrance">
+                    <a href="#" class="profile">
+                        <img class="profile__link" src="images/profile.svg" alt="">
+                    </a>
+                    <div class="line"></div>
+                    <a href="cart.html" class="basket">
+                        <img class="basket__link" src="images/basket.svg" alt="">
+                    </a>
+                    <p class="entrance__text">КОРЗИНА (5)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="profile__account">
+        <div class="container">
+            <div class="profile__inner">
+                <div class="profile__top">
+                    <h3 class="profile__title">
+                        мой аккаунт
+                    </h3>
+                    <div class="top__button_left">
+                        <p class="button_left__text">
+                            Заказ в пункте выдачи!
+                        </p>
+                        <a class="button_left__link" href="#">
+                            Подробнее
+                        </a>
+                    </div>
+                    <div class="top__button_right">
+                        <p class="button_right__text">
+                            Обновите свои данные
+                        </p>
+                        <a class="button_right__link" href="#">
+                            здесь
+                        </a>
+                    </div>
+                </div>
+                <div class="profile__tab__accounts">
+                    <div class="tabs__account">
+                        <input class="tabs__link" type="radio" name="inset" value="" id="tab_1" checked>
+                        <label class="tabs__name1" for="tab_1">Профиль</label>
+                        <input class="tabs__link" type="radio" name="inset" value="" id="tab_2">
+                        <label class="tabs__name2" for="tab_2">Заказы</label>
+                        <input class="tabs__link" type="radio" name="inset" value="" id="tab_3">
+                        <label class="tabs__name3" for="tab_3">Адрес</label>
+                        <input class="tabs__link" type="radio" name="inset" value="" id="tab_4">
+                        <label class="tabs__name4" for="tab_4">Настройки</label>
+                        <input class="tabs__link__btn" type="button" name="inset" value="" id="tab_5">
+                        <label class="tabs__name5" for="tab_5">Выйти</label>
+                        <div id="txt_1">
+                            <div class="profile__info">
+                                <img class="info__foto" src="images/profile__foto.png" alt="">
+                                <div class="info__name">
+                                    <p class="name__top">
+                                        Дарья Титова
+                                    </p>
+                                    <p class="reg__date">
+                                        зарегистрирован(а) месяц назад
+                                    </p>
+                                    <p class="info__tel">
+                                        +7 (999) 999 99-99
+                                    </p>
+                                    <p class="info__email">
+                                        VedmOchKA99.mail.ru
+                                    </p>
+                                </div>
+                                <a class="change__link" href="#">
+                                    изменить данные
+                                </a>
+                            </div>
+                        </div>
+                        <div id="txt_2">
+                            <div class="txt_2__inner">
+                                <div class="txt_2__left">
+                                    <div class="goods__account__cart">
+                                        <div class="goods__account__img">
+                                            <img class="goods__account__images" src="images/tea128_108.png" alt="">
+                                        </div>
+                                        <div class="goods__account__info">
+                                            <p class="info__account__price-cart">
+                                                540 руб.
+                                            </p>
+                                            <h3 class="info__account__title">
+                                                Колумбия Coffee
+                                            </h3>
+                                            <p class="info__account__grind">
+                                                вес: 1кг <br>
+                                                помол: зёрна
+                                                обжарка: для фильтра
+                                            </p>
+                                        </div>
+                                        <div class="goods__account__status">
+                                            <p class="order__number">
+                                                # CO-513252-F
+                                            </p>
+                                            <p class="order__status1">
+                                                в пути
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="goods__account__line"></div>
+                                    <div class="goods__account__cart">
+                                        <div class="goods__account__img">
+                                            <img class="goods__account__images" src="images/tea128_108.png" alt="">
+                                        </div>
+                                        <div class="goods__account__info">
+                                            <p class="info__account__price-cart">
+                                                540 руб.
+                                            </p>
+                                            <h3 class="info__account__title">
+                                                Колумбия Coffee
+                                            </h3>
+                                            <p class="info__account__grind">
+                                                вес: 1кг <br>
+                                                помол: зёрна
+                                                обжарка: для фильтра
+                                            </p>
+                                        </div>
+                                        <div class="goods__account__status">
+                                            <p class="order__number">
+                                                # CO-513244-F
+                                            </p>
+                                            <p class="order__status2">
+                                                в пункте выдачи
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="goods__account__line"></div>
+                                    <div class="goods__account__cart">
+                                        <div class="goods__account__img">
+                                            <img class="goods__account__images" src="images/tea128_108.png" alt="">
+                                        </div>
+                                        <div class="goods__account__info">
+                                            <p class="info__account__price-cart">
+                                                540 руб.
+                                            </p>
+                                            <h3 class="info__account__title">
+                                                Колумбия Coffee
+                                            </h3>
+                                            <p class="info__account__grind">
+                                                вес: 1кг <br>
+                                                помол: зёрна
+                                                обжарка: для фильтра
+                                            </p>
+                                        </div>
+                                        <div class="goods__account__status">
+                                            <p class="order__number">
+                                                # CO-513244-F
+                                            </p>
+                                            <p class="order__status3">
+                                                оплачен
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="txt_2__right">
+                                    <div class="account__information">
+                                        <div class="information__order__account">
+                                            <div class="order__account__left">
+                                                <p class="left__text__account">3 товара</p>
+                                                <p class="left__text__account">доставка</p>
+                                                <p class="left__text__account">скидка</p>
+                                            </div>
+                                            <div class="order__account__right">
+                                                <p class="right__text__account">1620 руб</p>
+                                                <p class="right__text__account">бесплатно</p>
+                                                <p class="right__text__account">0 руб</p>
+                                            </div>
+                                        </div>
+                                        <div class="information__total__account">
+                                            <p class="total__text__account">итого</p>
+                                            <p class="total__text__account">1620 руб</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="txt_3">
+                            <div class="txt_3__inner">
+                                <div class="txt_3__form">
+                                    <div class="txt_3_form__adress">
+                                        <form class="form__adress_left" action="">
+                                            <input class="form__adress_city" type="text" placeholder="Город">
+                                            <input class="form__adress_city" type="number"
+                                                placeholder="Почтовый индекс">
+                                            <input class="form__adress_checkbox" type="checkbox" name="Частный дом">
+                                            <label class="private__house" for="Частный дом">Частный дом</label>
+                                        </form>
+                                    </div>
+                                    <div class="txt_3_form__number">
+                                        <form class="form__adress_right" action="">
+                                            <input class="form__adress_number" type="number" placeholder="Дом">
+                                            <input class="form__adress_number" type="number" placeholder="Квартира">
+                                            <input class="form__adress_number" type="number" placeholder="Подъезд">
+                                            <input class="form__adress_number" type="number" placeholder="Этаж">
+                                        </form>
+                                    </div>
+                                </div>
+                                <button class="txt_3__save" type="submit">
+                                    Сохранить
+                                </button>
+                            </div>
+                        </div>
+                        <div id="txt_4">
+                            <div class="txt_4__inner">
+                                <img class="loading__foto" src="images/load__foto.png" alt="">
+                                <form class="txt_4__form" action="">
+                                    <input class="setting__form" type="text" placeholder="Имя">
+                                    <input class="setting__form" type="tel" placeholder="+7 (999) 999 99-99">
+                                    <input class="setting__form" type="text" placeholder="Фамилия">
+                                    <input class="setting__form" type="email" placeholder="VedmOchKA99.mail.ru">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo__footer.svg" alt="">
+                </a>
+                <div class="footer__tel">
+                    <a class="tel" href="+79998887766">+7 (999) 888 77-66</a>
+                    <p class="tel__text">
+                        Звонок бесплатный
+                    </p>
+                </div>
+            </div>
+            <div class="footer__middle">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="contact.html">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__social">
+                    <a href="" class="social__link">ВК</a>
+                    <a href="" class="social__link">FB</a>
+                    <a href="" class="social__link">INST</a>
+                    <a href="" class="social__link">YT</a>
+                </div>
+            </div>
+            <div class="line__footer">
+            </div>
+            <div class="footer__bottom">
+                <p class="bottom__copyright">© 2021 «Вкусно кофе»</p>
+                <p class="bottom__text">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

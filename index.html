@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="catalog.html">Каталог</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                    </ul>
+                </nav>
+               
+                <div class="hamburger-menu">
+                    
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <div class="hamburger-menu_mobile_text">Меню</div>
+                    <a href="cart.html" class="basket_robinss">
+                        <img class="basket_robinss_link" src="images/basket.svg" alt="">
+                    </a>
+                
+                    <ul class="menu__box">
+                      <li><a class="menu__item" href="#">Главная</a></li>
+                            <li><a class="menu__item" href="#">Проекты</a></li>
+                            <li><a class="menu__item" href="#">Команда</a></li>
+                            <li><a class="menu__item" href="#">Блог</a></li>
+                            <li><a class="menu__item" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="entrance">
+                    <a href="#" class="profile">
+                        <img class="profile__link" src="images/profile.svg" alt="">
+                    </a>
+                    <div class="line"></div>
+                    <a href="cart.html" class="basket">
+                        <img class="basket__link" src="images/basket.svg" alt="">
+                    </a>
+                    <p class="entrance__text">КОРЗИНА (5)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="index__top">
+        <div class="container">
+            <div class="mobile_main_img_top">
+                <img src="images/Group 98.png" alt="">
+            </div>
+            <div class="index__top-inner">
+                <div class="top__content">
+                    <h1 class="top__content-title">
+                        ЛУЧШИЙ ВЫБОР ДЛЯ
+                        <span> ПРОФЕССИОНАЛА, ЛЮБИТЕЛЯ, <br>
+                            ТЕБЯ
+                        </span>
+                        <img class="top-img" src="images/bgr_line.svg" alt="">
+                    </h1>
+                    <div class="top__content-bottom">
+                    <div>
+                        <a class="top__content-btn" href="#">каталог</a>
+                    </div>
+                        <div class="sup_one_main">
+                            <img class="top__content-img" src="images/right-arrow.svg" alt="">
+                            <a class="top__content-link" href="#">узнайте о нашей рецептуре</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top__image">
+                    <img class="top__image-tea" src="images/Group 98.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="novelty">
+        <div class="container">
+            <div class="novelty__inner">
+                <h3 class="novelty__title">
+                    попробуйте новинки
+                </h3>
+                <div class="product__wrapper">
+                    <div class="product">
+                        <p class="product__item-text-index">
+                            для фильтра
+                        </p>
+                        <h3 class="product__item-title">
+                            Колумбия COFFEE
+                        </h3>
+                       
+                        <img class="product__item-img" src="images/product.png" alt="" >
+                        <!-- <img class="product_mobile" src="images/product_mobile.png" alt="" > -->
+                        
+                        <div class="info__rating">
+                            <div class="properties-index">
+                                <p class="properties-index__text density">Плотность</p>
+                                <img src="images/Group 2.png" class="first_img_properties_index"/>
+                            </div>
+                            <div class="properties-index">
+                                <p class="properties-index__text acidity">Кислотность</p>
+                                <img src="images/Group 2.png" class="second_img_properties_index"/>
+                            </div>
+                        </div>
+                        <div class="info__text-index">
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">500г</p>
+                                <p class="info__text-index-price">540 Р</p>
+                            </div>
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">1200г</p>
+                                <p class="info__text-index-price">1040 Р</p>
+                            </div>
+                            <button type="submit" class="product__item-btn-index">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <p class="product__item-text-index">
+                            для фильтра
+                        </p>
+                        <h3 class="product__item-title">
+                            Колумбия COFFEE
+                        </h3>
+                        <img class="product__item-img" src="images/product.png" alt="">
+                        <div class="info__rating">
+                            <div class="properties-index">
+                                <p class="properties-index__text density">Плотность</p>
+                                <img src="images/Group 2.png" class="first_img_properties_index"/>
+                            </div>
+                            <div class="properties-index">
+                                <p class="properties-index__text acidity">кислотность</p>
+                                <img src="images/Group 2.png" class="second_img_properties_index"/>
+                            </div>
+                        </div>
+                        <div class="info__text-index">
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">500г</p>
+                                <p class="info__text-index-price">540 Р</p>
+                            </div>
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">1200г</p>
+                                <p class="info__text-index-price">1040 Р</p>
+                            </div>
+                            <button type="submit" class="product__item-btn-index">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <p class="product__item-text-index">
+                            для фильтра
+                        </p>
+                        <h3 class="product__item-title">
+                            Колумбия COFFEE
+                        </h3>
+                        <img class="product__item-img" src="images/product.png" alt="">
+                        <div class="info__rating">
+                            <div class="properties-index">
+                                <p class="properties-index__text density">Плотность</p>
+                                <img src="images/Group 2.png" class="first_img_properties_index"/>
+                            </div>
+                            <div class="properties-index">
+                                <p class="properties-index__text acidity">кислотность</p>
+                                <img src="images/Group 2.png" class="second_img_properties_index"/>
+                            </div>
+                        </div>
+                        <div class="info__text-index">
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">500г</p>
+                                <p class="info__text-index-price">540 Р</p>
+                            </div>
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">1200г</p>
+                                <p class="info__text-index-price">1040 Р</p>
+                            </div>
+                            <button type="submit" class="product__item-btn-index">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <p class="product__item-text-index">
+                            для фильтра
+                        </p>
+                        <h3 class="product__item-title">
+                            Колумбия COFFEE
+                        </h3>
+                        <img class="product__item-img" src="images/product.png" alt="">
+                        <div class="info__rating">
+                            <div class="properties-index">
+                                <p class="properties-index__text density">Плотность</p>
+                                <img src="images/Group 2.png" class="first_img_properties_index"/>
+                            </div>
+                            <div class="properties-index">
+                                <p class="properties-index__text acidity">кислотность</p>
+                                <img src="images/Group 2.png" class="second_img_properties_index"/>
+                            </div>
+                        </div>
+                        <div class="info__text-index">
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">500г</p>
+                                <p class="info__text-index-price">540 Р</p>
+                            </div>
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">1200г</p>
+                                <p class="info__text-index-price">1040 Р</p>
+                            </div>
+                            <button type="submit" class="product__item-btn-index">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <p class="product__item-text-index">
+                            для фильтра
+                        </p>
+                        <h3 class="product__item-title">
+                            Колумбия COFFEE
+                        </h3>
+                        <img class="product__item-img" src="images/product.png" alt="">
+                        <div class="info__rating">
+                            <div class="properties-index">
+                                <p class="properties-index__text density">Плотность</p>
+                                <img src="images/Group 2.png" class="first_img_properties_index"/>
+                            </div>
+                            <div class="properties-index">
+                                <p class="properties-index__text acidity">кислотность</p>
+                                <img src="images/Group 2.png" class="second_img_properties_index"/>
+                            </div>
+                        </div>
+                        <div class="info__text-index">
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">500г</p>
+                                <p class="info__text-index-price">540 Р</p>
+                            </div>
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">1200г</p>
+                                <p class="info__text-index-price">1040 Р</p>
+                            </div>
+                            <button type="submit" class="product__item-btn-index">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <p class="product__item-text-index">
+                            для фильтра
+                        </p>
+                        <h3 class="product__item-title">
+                            Колумбия COFFEE
+                        </h3>
+                        <img class="product__item-img" src="images/product.png" alt="">
+                        <div class="info__rating">
+                            <div class="properties-index">
+                                <p class="properties-index__text density">Плотность</p>
+                                <img src="images/Group 2.png" class="first_img_properties_index"/>
+                            </div>
+                            <div class="properties-index">
+                                <p class="properties-index__text acidity">кислотность</p>
+                                <img src="images/Group 2.png" class="second_img_properties_index"/>
+                            </div>
+                        </div>
+                        <div class="info__text-index">
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">500г</p>
+                                <p class="info__text-index-price">540 Р</p>
+                            </div>
+                            <div class="info__text-index-item">
+                                <p class="info__text-index-gramm">1200г</p>
+                                <p class="info__text-index-price">1040 Р</p>
+                            </div>
+                            <button type="submit" class="product__item-btn-index">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="range-index">
+        <div class="container">
+            <div class="sup_class_two">
+                <div class="sup_class_two_img">
+                    <img src="images/eye 1.png" />
+                </div>
+                <div class="sup_class_two_text">
+                    <a>смотреть ещё</a>
+                </div>
+            </div>
+            <div class="range-index__inner">
+                <h3 class="range-index__title">
+                    ознакомьтесь с <br>
+                    полным ассортиментом
+                </h3>
+                <a class="range-index__button" href="#">открыть каталог</a>
+            </div>
+        </div>
+    </section>
+    <section class="benefits-index">
+        <div class="container">
+            <div class="benefits-index__inner">
+                <div class="benefits-index__quality">
+                    <h3 class="benefits-index__title">
+                        Знак качества
+                    </h3>
+                    <p class="benefits-index__text">
+                        Мы обжариваем этот кофе каждый день. Если кофе не понравится — бесплатно заменим или вернем
+                        оплату.
+                    </p>
+                    <a class="benefits-index__link" href="#">Подробнее</a>
+                </div>
+                <div class="benefits-index__delivery">
+                    <h3 class="benefits-index__title">
+                        бесплатная доставка
+                    </h3>
+                    <p class="benefits-index__text">
+                        Вы можете оформить заказ на сумму от 600 рублей, мы доставим его в любой город до пункта выдачи
+                        или до двери.
+                    </p>
+                    <a class="benefits-index__link" href="#">Подробнее</a>
+                </div>
+                <div class="benefits-index__range-index">
+                    <h3 class="benefits-index__title">
+                        широкий ассортимент
+                    </h3>
+                    <p class="benefits-index__text">Более 200 наименований с разными вкусами и способом приготовления.
+                        Только
+                        лучшие зёрна и ингредиенты.
+                    </p>
+                    <a class="benefits-index__link" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscription-index">
+        <div class="container">
+            <div class="subscription-index__inner">
+                <div class="subscription-index__img">
+                    <img class="boxes__img" src="images/boxes.png" alt="">
+                </div>
+                <div class="subscription-index__info">
+                    <h3 class="info__title-index">
+                        ОФОРМИТЕ ПОДПИСКУ НА <br>
+                        <span> месячный <br>
+                            запас кофе</span>
+                    </h3>
+                    <div class="info__btn">
+                        <a class="info__btn-link" href="#">ПОДРОБНЕЕ</a>
+                        <p class="info__btn-text">
+                            ОТ 3100 РУБ / МЕСЯЦ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo__footer.svg" alt="">
+                </a>
+                <div class="footer__tel">
+                    <a class="tel" href="+79998887766">+7 (999) 888 77-66</a>
+                    <p class="tel__text">
+                        Звонок бесплатный
+                    </p>
+                </div>
+            </div>
+            <div class="footer__middle">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="contact.html">контакты</a></li>
+                    </ul>
+                </nav>
+                <nav class="menu_mobile_footer">
+                    <ul class="menu__list">
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="contact.html">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__social">
+                    <a href="" class="social__link">ВК</a>
+                    <a href="" class="social__link">FB</a>
+                    <a href="" class="social__link">INST</a>
+                    <a href="" class="social__link">YT</a>
+                </div>
+            </div>
+            <div class="line__footer">
+            </div>
+            <div class="footer__bottom">
+                <p class="bottom__copyright">© 2021 «Вкусно кофе»</p>
+                <p class="bottom__text">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

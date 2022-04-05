@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link" href="catalog.html">Каталог</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                    </ul>
+                </nav>
+                <div class="entrance">
+                    <a href="#" class="profile">
+                        <img class="profile__link" src="images/profile.svg" alt="">
+                    </a>
+                    <div class="line"></div>
+                    <a href="cart.html" class="basket">
+                        <img class="basket__link" src="images/basket.svg" alt="">
+                    </a>
+                    <p class="entrance__text">КОРЗИНА (5)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="auth">
+        <div class="container">
+            <div class="auth__inner">
+                <div class="entry">
+                    <h3 class="auth__title">
+                        Вход
+                    </h3>
+                    <p class="auth__text">
+                        Введите данные или зарегистрируйтесь
+                    </p>
+                    <form action="" class="entry__form">
+                        <input class="login" type="text" value="Логин или e-mail">
+                        <input class="password" type="text" value="Пароль">
+                    </form>
+                    <a class="forget" href="#">забыли пароль?</a>
+                    <button class="entry__btn" type="submit">Войти</button>
+                    <form action="" class="remember__form">
+                        <input class="remember" type="checkbox" name="remember">
+                        <label class="checkbox__name" for="remember"> запомнить меня</label>
+                    </form>
+                </div>
+                <div class="registration">
+                    <h3 class="auth__title">
+                        Регистрация
+                    </h3>
+                    <p class="auth__text">На ваш почтовый адрес будет отправлен пароль.</p>
+                    <form class="registration__form" action="">
+                        <input type="email" class="registration__email">
+                    </form>
+                    <button class="registration__btn">регистрация</button>
+                    <p class="form__text">
+                        Ваши личные данные будут использоваться для упрощения вашей работы с сайтом, управления
+                        доступом к вашей учётной записи и для других целей, описанных в нашей политика
+                        конфиденциальности.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="logo" href="index.html">
+                    <img class="header__logo" src="images/logo__footer.svg" alt="">
+                </a>
+                <div class="footer__tel">
+                    <a class="tel" href="+79998887766">+7 (999) 888 77-66</a>
+                    <p class="tel__text">
+                        Звонок бесплатный
+                    </p>
+                </div>
+            </div>
+            <div class="footer__middle">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">РЕЦЕПТУРА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                        <li class="footer__menu-list"><a class="footer__menu-link" href="contact.html">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__social">
+                    <a href="" class="social__link">ВК</a>
+                    <a href="" class="social__link">FB</a>
+                    <a href="" class="social__link">INST</a>
+                    <a href="" class="social__link">YT</a>
+                </div>
+            </div>
+            <div class="line__footer">
+            </div>
+            <div class="footer__bottom">
+                <p class="bottom__copyright">© 2021 «Вкусно кофе»</p>
+                <p class="bottom__text">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
